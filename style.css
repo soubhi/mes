@@ -1,0 +1,545 @@
+.header-class {
+    background-color: #008080;
+}
+
+
+/*** changes to be made are mentioned inside /*@@@@ @@@@*/
+
+
+/**********************CUSTOM NAVIGATION BAR COLORS*********************/
+
+
+/* navbar */
+
+.navbar-default {
+    border-radius: 0px !important;
+    background-color: #008080 !important;
+    border-color: #008080 !important;
+    border-bottom-color: white !important;
+}
+
+
+/* Title */
+
+.navbar-default .navbar-brand {
+    color: white !important;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+
+
+/* Link */
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: black !important;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: black !important;
+    background-color: #f0f8ff !important;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: black !important;
+    background-color: #caeaea !important;
+}
+
+
+/* Caret */
+
+.navbar-default .navbar-nav>.dropdown>a span .caret {
+    border-top-color: white !important;
+    border-bottom-color: white !important;
+}
+
+.navbar-default .navbar-nav>.dropdown>a:hover .caret,
+.navbar-default .navbar-nav>.dropdown>a:focus .caret {
+    border-top-color: black !important;
+    border-bottom-color: black !important;
+}
+
+.navbar-default .navbar-nav>.open>a .caret,
+.navbar-default .navbar-nav>.open>a:hover .caret,
+.navbar-default .navbar-nav>.open>a:focus .caret {
+    border-top-color: black !important;
+    border-bottom-color: #f0f8ff !important;
+}
+
+
+/* Mobile version */
+
+.navbar-default .navbar-toggle {
+    border-color: #DDD;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #DDD;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: black !important;
+        background-color: white !important;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: black !important;
+	background-color: #caeaea !important;
+    }
+}
+ 
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #caeaea !important;
+    color: #000000 !important;
+    border-color: #008080 !important;
+}
+
+
+/****************************************************/
+
+
+/*website heading and social media icons*/
+
+.logo {
+    margin: 30px 5px 30px 30px;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20pt;
+    color: #f0f8ff;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+.top-right {
+    display: block;
+    padding: 0px 5px;
+    margin: 20px 5px;
+    text-align: center;
+}
+
+.social-media {
+    display: block;
+    text-align: center;
+    padding: 0px 5px;
+    margin: 35px 5px 0px 5px;
+}
+
+.social-media a {
+    text-decoration: none;
+    text-align: right;
+    word-spacing: 8px;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+}
+
+.margin-content {}
+
+
+/************************************************************/
+
+
+/*content on any page*/
+
+.article-content {
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+
+/************************************************************/
+
+
+/*sidebar-deadlines*/
+
+.sidebar-deadlines {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid #cccccc;
+}
+
+.deadlines-block {
+    text-align: center;
+    padding: 10px;
+    padding-top: 4px;
+    line-height: 2.0;
+    display: block;
+    color: #333333;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+}
+
+
+/************************************************************/
+
+
+/*footer*/
+
+.footer-class {
+    display: block;
+    background-color: #e6e6e6;
+    padding: 25px;
+    padding-left: 50px;
+    line-height: 1.4;
+    color: black;
+    font-weight : normal !important;
+}
+
+.footer-class a {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer-class a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/************************************************************/
+
+
+/*topics list for home page*/
+
+.topics-list {
+    list-style-type: disc;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+
+
+/******************VENUE PHOTOS SLIDE***********************/
+
+
+
+/**@@@@@@@@ ADD THIS @@@@@@**/
+
+@media only screen and (max-width: 1026px) {
+    #trow {
+        display: none;
+    }
+	
+	.new-modal-content{
+		 width: 100%;
+		 margin: auto;
+		 position : center;
+	}
+
+	img.pics {
+	position : centre;
+	margin: 5% auto 5% auto;
+	width : 100%;
+	}	
+}
+	
+
+/**
+ Accessibility Related CSS Changes 
+*/
+
+.offscreen {
+    position: absolute;
+    left: -999px;
+    overflow: hidden;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    z-index: 10;
+    color: #fff;
+}
+
+a.offscreen:focus,
+a.offscreen:active {
+    left: 10px;
+    top: 2px;
+    width: auto;
+    height: auto;
+    color: #fff;
+    outline: #ffffff 2px solid;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    background-color: #caeaea !important;
+}
+
+.logo h1 {
+    text-decoration: none;
+    text-align: justify;
+    font-size: 20pt;
+    color: #f0f8ff;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+.logo a:focus,
+header a:focus {
+    text-decoration: none;
+    color: #f0f8ff;
+    outline: #ffffff 2px solid;
+}
+
+.normal-font {
+    font-size: 0.65em;
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.footer-class a:hover {
+    color: #23527c !important;
+}
+
+ul.no-decoration {
+    list-style-type: none
+}
+
+.no-margin {
+    margin-top: 0px !important;
+}
+
+#accessibililtyTopBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #464646;
+    color: #ffffff;
+    padding: 9px;
+}
+
+#accessibililtyTopBar a {
+    color: #ffffff;
+    margin-right: 15px;
+    padding: 4px;
+}
+
+body {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 980px) {
+    #accessibililtyTopBar {
+        display: none;
+    }
+    body {
+        padding-top: 0;
+    }
+}
+
+/* Venue Carousel */
+
+.carousel, .slide {
+    width: 480px;
+    padding:0;
+    margin: 0;
+    overflow: auto;
+  }
+  .carousel {
+    position: relative;
+  }
+  .carousel ul {
+    margin:0;
+    padding: 0;
+  }
+	.carousel .slide{
+		width:100% !important;
+	}
+	.carousel{
+		width:100% !important;
+	}
+	.carousel li img {	
+		height: 300px !important;
+	}
+  .slide {
+    height: 360px;
+    background-size: cover;
+    position: center;
+    margin-bottom:1em;
+    border:1px solid #333;
+  }
+  .slide h4 {
+    display:inline-block;
+    float:righ;
+    font-size: 1.25em;
+    margin:0;
+    padding: .25em;
+    text-align: right;
+    background-color: rgba(255,255,255,.8);
+    float:right;
+    border-radius: 0 0 0 .5em;
+  }
+  .slide p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:0;
+    clear:both;
+    padding: 5px;
+    background-color: rgba(255,255,255,.8);
+  }
+  .slide a {
+    display:block;
+    text-align: right;
+  }
+
+.carousel.active {
+  height: 360px;
+  /*border: 1px solid #333;*/
+  position:relative;
+}
+
+.active .slide {
+  border: none;
+  display: none;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:200;
+  background-color: white;
+}
+
+.slide.current {
+  display:block;
+  z-index: 500;
+}
+
+.btn-prev,
+.btn-next {
+  position:absolute;
+  z-index: 700;
+  top: 50%;
+  margin-top: -2.5em;
+  border:0;
+  background: #f5f5f5;
+  line-height: 1;
+  padding:10px 5px;
+  transition: padding .4s ease-out;
+  font-size: 28px;
+  color:#036;
+}
+
+.btn-next:hover,
+.btn-next:focus,
+.btn-prev:hover,
+.btn-prev:focus {
+  padding-left: 15px;
+  padding-right:15px;
+}
+
+.btn-prev {
+  left:0;
+  border-radius: 0 .25em .25em 0;
+}
+
+.btn-next {
+  right:0;
+  border-radius: .25em 0 0 .25em;
+}
+
+.carousel.with-slidenav {
+  padding-bottom: 2em;
+  background-color: #fff;
+}
+.carousel.with-slidenav .slide {
+  /*border-bottom: 1px solid #333;*/
+}
+
+.slidenav {
+  position: absolute;
+  bottom:.25em;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.slidenav li {
+  display:inline-block;
+  margin: 0 .5em;
+}
+
+.slidenav button {
+  border: 2px solid #036;
+  background-color: #036;
+  line-height: 1em;
+  height: 1.5em;
+  width:auto;
+  font-weight: bold;
+  color: #fff;
+}
+
+.slidenav button.current {
+  border-radius: .5em;
+  background-color: #fff;
+  color: #333;
+}
+
+.slidenav button:hover,
+.slidenav button:focus {
+  border: 2px dotted #fff;
+}
+
+.slidenav button.current:hover,
+.slidenav button.current:focus {
+  border: 2px dotted #036;
+}
+
+#c {
+  margin-bottom:20px !important;
+}
+
+#c ul{
+  padding-bottom:12px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*@media only screen and (max-width: 500px) {
+
+	.center {
+		height: 100%;
+		width: 100%;
+		display: block;	
+	}
+}
+*/
